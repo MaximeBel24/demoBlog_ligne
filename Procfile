@@ -1,1 +1,1 @@
-postdeploy: php bin/console doctrine:schema:update
+postdeploy: php bin/console doctrine:schema:update --force
